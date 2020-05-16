@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieRentalAdminApi", "MovieRentalAdminApi\MovieRentalAdminApi.csproj", "{47E78A00-BE14-407A-9AED-FB4C73D5D37C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieRentalAdminApi.DataAccess", "MovieRentalAdminApi.DataAccess\MovieRentalAdminApi.DataAccess.csproj", "{30450D1B-9F09-4E71-8FA4-AED97186A939}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieRentalAdminApi.Domain", "MovieRentalAdminApi.Domain\MovieRentalAdminApi.Domain.csproj", "{A74D8E93-0E40-4D83-8916-BCBE61FC7236}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Presentation", "1 Presentation", "{FD2668A2-9CF3-4024-BD53-4C7E210438F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Domain", "2 Domain", "{E479B585-BFFE-405A-BEFC-C2E3DE355BA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Infrastructure", "3 Infrastructure", "{AAA5EA99-E881-4E16-BF63-F4437A1FC8BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRentalAdminApi.CrossCutting", "MovieRentalAdminApi.CrossCutting\MovieRentalAdminApi.CrossCutting.csproj", "{43B67BB5-415D-4A74-B163-333C17153E5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47E78A00-BE14-407A-9AED-FB4C73D5D37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E78A00-BE14-407A-9AED-FB4C73D5D37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E78A00-BE14-407A-9AED-FB4C73D5D37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E78A00-BE14-407A-9AED-FB4C73D5D37C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30450D1B-9F09-4E71-8FA4-AED97186A939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30450D1B-9F09-4E71-8FA4-AED97186A939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30450D1B-9F09-4E71-8FA4-AED97186A939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30450D1B-9F09-4E71-8FA4-AED97186A939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A74D8E93-0E40-4D83-8916-BCBE61FC7236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74D8E93-0E40-4D83-8916-BCBE61FC7236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74D8E93-0E40-4D83-8916-BCBE61FC7236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74D8E93-0E40-4D83-8916-BCBE61FC7236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B67BB5-415D-4A74-B163-333C17153E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B67BB5-415D-4A74-B163-333C17153E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B67BB5-415D-4A74-B163-333C17153E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B67BB5-415D-4A74-B163-333C17153E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47E78A00-BE14-407A-9AED-FB4C73D5D37C} = {FD2668A2-9CF3-4024-BD53-4C7E210438F0}
+		{30450D1B-9F09-4E71-8FA4-AED97186A939} = {AAA5EA99-E881-4E16-BF63-F4437A1FC8BB}
+		{A74D8E93-0E40-4D83-8916-BCBE61FC7236} = {E479B585-BFFE-405A-BEFC-C2E3DE355BA5}
+		{43B67BB5-415D-4A74-B163-333C17153E5D} = {AAA5EA99-E881-4E16-BF63-F4437A1FC8BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0540AFB-6F24-4107-9FC6-86CAE1169F2B}
+	EndGlobalSection
+EndGlobal

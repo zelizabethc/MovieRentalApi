@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MovieRentalAdminApi/bin/Debug/netcoreapp2.1
+/MovieRentalAdminApi/obj
+/MovieRentalAdminApi.CrossCutting/bin/Debug/netcoreapp2.1
+/MovieRentalAdminApi.CrossCutting/obj
+/MovieRentalAdminApi.DataAccess/bin/Debug/netcoreapp2.1
+/MovieRentalAdminApi.DataAccess/obj
+/MovieRentalAdminApi.Domain/bin/Debug/netcoreapp2.1
+/MovieRentalAdminApi.Domain/obj
